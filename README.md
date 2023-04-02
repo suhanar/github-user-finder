@@ -7,7 +7,7 @@ https://suhanar.github.io/github-user-finder/
 This is a simple web application that allows you to search for a user's Github profile and view their repositories. It is built using HTML5, CSS, JQuery, and Bootstrap5.
 # Usage
 
-To use the application, simply enter the Github username of the user you want to search for in the search bar and click the "Search" button. The application will retrieve the user's profile information and display it on the screen along with their repositories.
+To use the application, simply enter the Github username of the user you want to search for in the search bar. The application will retrieve the user's profile information and display it on the screen along with their repositories.
 # Installation
 
 To install the application, simply download the files and open the index.html file in your web browser. You can also host the files on a web server if you wish to make it accessible from anywhere.
