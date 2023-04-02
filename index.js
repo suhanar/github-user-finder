@@ -8,8 +8,8 @@ $(document).ready(function(){
             url:'https://api.github.com/users/'+username,
             data:{
                 
-                client_id:config.CLIENT_ID,
-                client_secret:config.SECRET_API_KEY
+                // client_id:config.CLIENT_ID,
+                // client_secret:config.SECRET_API_KEY
             }
         }).done(function(user){
 
@@ -17,8 +17,8 @@ $(document).ready(function(){
                 url:'https://api.github.com/users/'+username+'/repos',
                 data:{
                 
-                client_id:config.CLIENT_ID,
-                client_secret:config.SECRET_API_KEY,
+                // client_id:config.CLIENT_ID,
+                // client_secret:config.SECRET_API_KEY,
                     sort:'created:asc',
                     per_page:5
                 }
